@@ -1,0 +1,18 @@
+.carrito{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.cont-general{
+
+    display: flex;
+}
+
+.modificador{
+    font-size: 1.5rem;
+    color: brown;
+}
