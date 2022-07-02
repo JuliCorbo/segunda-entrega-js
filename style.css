@@ -16,3 +16,19 @@
     font-size: 1.5rem;
     color: brown;
 }
+
+.sumar-todo{
+
+    height: 10rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width:100%
+
+}
+
+
+.carritoStyle{
+    border: 3px, solid black;
+
+}
