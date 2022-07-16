@@ -118,9 +118,9 @@ productos.push(new Productos(6,"regadera de metal",1500, url="img/regadera.jpg")
     title: 'Seguro quieres borrar este articulo?',
     text: "No vas a recibirlo en tu compra :(",
     icon: 'warning',
-    showCancelButton: true,
+    
     confirmButtonText: 'Si! Quitalo!',
-    cancelButtonText: 'No, Dejalo!',
+    
     reverseButtons: true
   }).then((result) => {
     if (result.isConfirmed) {
@@ -161,7 +161,21 @@ productos.push(new Productos(6,"regadera de metal",1500, url="img/regadera.jpg")
 
       
  }
+const lista = document.getElementById("lista")
 
+ fetch(`./prod.json`)
+ .then(response => response.json())
+ .then(res=> {
+    res.forEach(post => {   
+      const li = document.createElement("li");
+      li.innerHTML = `
+                  <h2>${post.title}</h2>
+                  <p>${post.descripcion}</p>`;
+
+                  lista.append(li);
+
+             })     
+ })
 
 
 
