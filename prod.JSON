@@ -1,9 +1,9 @@
 [
     {
     "id": 1,
-    "title": "maceta",
+    "title": "Maceta",
     "precio": 350 ,
-    "descripcion": "maceta con huecos lista apta para sol"
+    "descripcion": "Maceta con huecos lista apta para sol"
 
 },
 {
@@ -14,41 +14,41 @@
 },
 {
     "id": 3,
-    "title": "ganchitos",
+    "title": "Ganchitos",
     "precio": 150,
-    "descripcion": "ganchitos para colgar macetas"
+    "descripcion": "Ganchitos para colgar macetas"
 
 },
 {
     "id": 4,
-    "title": "palita",
+    "title": "Palita",
     "precio": 850,
-    "descripcion": "palita para jardineria resistente"
+    "descripcion": "Palita para jardineria resistente"
 },
 {
     "id": 5,
-    "title": "tierra",
+    "title": "Tierra",
     "precio": 910 ,
-    "descripcion": "tierra Fertilizada apta para plantas de exterior"
+    "descripcion": "Tierra Fertilizada apta para plantas de exterior"
 },
 {
     "id": 6,
-    "title": "regadera de metal",
+    "title": "Regadera de metal",
     "precio": 1500 ,
-    "descripcion": "regadera de metal resistente a las inclemencias del tiempo"
+    "descripcion": "Regadera de metal resistente a las inclemencias del tiempo"
 
 },
 {
     "id": 7,
-    "title": "regadera de plastico",
+    "title": "Regadera de plastico",
     "precio": 1350 ,
-    "descripcion": "regadera de plastico economica"
+    "descripcion": "Regadera de plastico economica"
 },
 {
     "id": 8,
-    "title": "regadera de zing",
+    "title": "Regadera de zing",
     "precio": 2000 ,
-    "descripcion": "increible regadera de zing"
+    "descripcion": "Increible regadera de zing"
 }
 
 ]

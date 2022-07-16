@@ -82,7 +82,7 @@ productos.push(new Productos(6,"regadera de metal",1500, url="img/regadera.jpg")
                   <p> Id: ${carrito[parametro].id}</p>
                   <p>${carrito[parametro].title}</p>
                   <p> $ ${carrito[parametro].precio}</p>
-                  <button class="btn-card" onclick = "eliminar(${carrito[parametro].id})">Eliminar</button>
+                  <button class="btn-eliminar" onclick = "eliminar(${carrito[parametro].id})">Eliminar</button>
                   `;
 
                   carritoDom.append(div)
